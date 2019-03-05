@@ -173,6 +173,16 @@
     "model": "books.author",
     "pk": 18,
     "fields": {
+      "created": "2018-03-05T12:18:41.633Z",
+      "first_name": "Professor",
+      "last_name": "Asis",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtul69Pce2eqcBxOGO_M5CWmMOqOnhcSco4NQGghGdnjugWIWC"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 19,
+    "fields": {
       "created": "2018-02-27T08:29:22.789Z",
       "first_name": "Mishmish",
       "last_name": "Alsharekh",
