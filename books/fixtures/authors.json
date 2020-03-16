@@ -168,5 +168,15 @@
       "last_name": "Waleed",
       "imageUrl": "https://i.ibb.co/Kh7wfMH/kale.jpg"
     }
+  },
+  {
+    "model": "books.author",
+    "pk": 18,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "Mishmish",
+      "last_name": "Alsharekh",
+      "imageUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQGmXYW1KxZG1w/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=wvnuW08TyowFBfSOD1Alafar9_gUCbkmAmx7MvDZZA0"
+    }
   }
 ]
