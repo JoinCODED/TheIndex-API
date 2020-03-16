@@ -1,7 +1,7 @@
 from datetime import datetime
 from django.core.management.base import BaseCommand, CommandError
 
-from books.models import Author
+from books.models import Author, Book
 
 
 class Command(BaseCommand):
@@ -10,6 +10,8 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         try:
             Author.objects.all().delete()
+            Book.objects.all().delete()
+
         except:
             # error message
             raise CommandError('error job not completed')
